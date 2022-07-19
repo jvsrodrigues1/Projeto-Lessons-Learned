@@ -1,9 +1,34 @@
 body{
   background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
 }
 header{
   top: 0px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(56, 171, 77);
+}
+#minha_foto{
+  border-radius: 80%;
+  margin-left: 600px;
+  padding: 20px;
 }
 table, th, td {
   border:1px solid black;
+}
+aside{
+  font-family: 'Sacramento', cursive;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  color: rgb(84, 87, 172);
+}
+article{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  background-color: rgb(56, 171, 77);
 }

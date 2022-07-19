@@ -53,6 +53,7 @@ article{
   background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
   line-height: 1.6;
 }
+/* a referencia de margin auto foi tirada do site https://www.w3schools.com/howto/howto_css_image_center.asp */
 table{
   margin-left: auto;
   margin-right: auto;
@@ -60,18 +61,22 @@ table{
 #artigo{
   font-weight: bold;
 }
+/* cores de gradiente foram retiradas do site https://mycolor.space/ */
 #yellow{
-  background-color: yellow;
+  background-image: linear-gradient(to bottom, #f6eb00, #eae64f, #e0e174, #d7da94, #d0d3b1);
 }
 #blue{
-  background: blue;
+  background-image: linear-gradient(to bottom, #3c4fd1, #008fe3, #00bac9, #a9d9c3, #f7f8f4);
 }
 #orange{
-  background-color: orange;
+  background-image: linear-gradient(to bottom, #d17227, #d78b45, #dca364, #e2b985, #e9cfa8);
 }
 #red{
-  background-color: red;
+  background-image: linear-gradient(to bottom, #e0151c, #da2e3b, #d04253, #c25466, #b16374);
 }
 #purple{
-  background-color: purple;
+  background-image: linear-gradient(to bottom, #c228cf, #ff518e, #fe997b, #edd1a7, #f7f8f4);
+}
+#thcolor{
+  background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
 }

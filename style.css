@@ -41,7 +41,7 @@ h2{
 aside{
   font-family: 'Sacramento', cursive;
   border: 1px solid black;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
 }
@@ -54,12 +54,29 @@ article{
   line-height: 1.6;
 }
 /* a referencia de margin auto foi tirada do site https://www.w3schools.com/howto/howto_css_image_center.asp */
-table{
+#tabela{
+  margin-top: 350px;
   margin-left: auto;
   margin-right: auto;
 }
-#artigo{
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 85px;
+}
+
+.lado-esquerdo{
   font-weight: bold;
+  float: left;
+  width: 50%;
+  margin-left: 20px
+}
+.lado-direito{
+  width: 40%;
+  float: right;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 /* cores de gradiente foram retiradas do site https://mycolor.space/ */
 #yellow{

@@ -7,28 +7,71 @@ header{
   border: 1px solid black;
   text-align: center;
   font-weight: bold;
-  color: white;
-  background-color: rgb(56, 171, 77);
+  color: rgb(18, 5, 29);
+  background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
 }
 #minha_foto{
   border-radius: 80%;
-  margin-left: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
 }
 table, th, td {
   border:1px solid black;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+font-weight: bolder;
+}
+a{
+  color: black;
+}
+h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  color: rgb(18, 5, 29);
+  background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
 }
 aside{
   font-family: 'Sacramento', cursive;
   border: 1px solid black;
   margin: 20px;
   padding: 20px;
-  color: rgb(84, 87, 172);
+  background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
 }
 article{
   border: 1px solid black;
   margin: 20px;
   padding: 20px;
-  color: white;
-  background-color: rgb(56, 171, 77);
+  color: rgb(18, 5, 29);
+  background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
+  line-height: 1.6;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+#artigo{
+  font-weight: bold;
+}
+#yellow{
+  background-color: yellow;
+}
+#blue{
+  background: blue;
+}
+#orange{
+  background-color: orange;
+}
+#red{
+  background-color: red;
+}
+#purple{
+  background-color: purple;
 }

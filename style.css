@@ -2,10 +2,11 @@ body{
   background-color: rgb(253, 251, 251);
   font-family: 'Montserrat', sans-serif;
 }
-header{
-  top: 0px;
+#cabecalho{
+  position: fixed;
+  top: 0%;
+  width: 100%;
   border: 1px solid black;
-  text-align: center;
   font-weight: bold;
   color: rgb(18, 5, 29);
   background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
@@ -16,6 +17,7 @@ header{
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  margin-top: 85px;
 }
 table, th, td {
   border:1px solid black;
@@ -33,7 +35,6 @@ h2{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   border: 1px solid black;
-  margin: 20px;
   padding: 20px;
   color: rgb(18, 5, 29);
   background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
@@ -41,8 +42,20 @@ h2{
 aside{
   font-family: 'Sacramento', cursive;
   border: 1px solid black;
-  margin: 10px;
   padding: 20px;
+  background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
+}
+#licoes_aprendidas{
+  border: 1px solid black;
+  margin: 20px;
+  color: rgb(18, 5, 29);
+  background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
+}
+#licoes_a_aprender{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  color: rgb(18, 5, 29);
   background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
 }
 article{
@@ -72,9 +85,8 @@ table{
   margin-left: 20px
 }
 .lado-direito{
-  width: 40%;
+  width: 35%;
   float: right;
-  margin-left: auto;
   margin-right: 20px;
   margin-top: 20px;
 }

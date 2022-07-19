@@ -89,6 +89,7 @@ table{
   float: right;
   margin-right: 20px;
   margin-top: 20px;
+  font-size: large;
 }
 /* cores de gradiente foram retiradas do site https://mycolor.space/ */
 #yellow{
@@ -107,5 +108,13 @@ table{
   background-image: linear-gradient(to bottom, #c228cf, #ff518e, #fe997b, #edd1a7, #f7f8f4);
 }
 #thcolor{
+  background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
+}
+#rodape{
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 78%;
   background-image: linear-gradient(to right bottom, #9b4cc6, #3c7cee, #009df3, #00b5df, #00c7c4, #4ed1bf, #73d9bc, #92e2bb, #a7e8cf, #beeedf, #d7f3ed, #f2f8f7);
 }
